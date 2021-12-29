@@ -5,6 +5,8 @@ import Home from './components/Home.js'
 import NavBar from './components/NavBar'
 import Apropos from './components/Apropos'
 import { connect } from 'react-redux'
+import Feedback from './components/Feedback'
+import Else from './components/Else'
 
 function App(props) {
 
@@ -15,8 +17,10 @@ function App(props) {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route exact path='/subjects/:id' element={<YearCard />} />
+        <Route path='/subjects/:id' element={<YearCard />} />
         <Route path='/apropos' element={<Apropos />} />
+        <Route path='/feedback' element={<Feedback />} />
+        <Route path='*' element={<Else />} />
       </Routes>
 
       <div className={classes.quote}>

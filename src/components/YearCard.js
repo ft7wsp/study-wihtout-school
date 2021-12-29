@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom'
 
 import classes from './YearCard.module.css'
 
+
 function YearCard(props) {
 
     const { id } = useParams();
@@ -11,7 +12,25 @@ function YearCard(props) {
         console.log(id);
         switch (id) {
             case '1er':
-                return [' Mathematiue de base 1', 'Mathematiue de base 2', ' Programmation procedurale 1', ' Programmation procedurale 2', 'Electronique', 'Algo 1']
+                return ['Anatomie',
+                    'Physiologie',
+                    'Physiologie de sang',
+                    'Génétique',
+                    'Histologie',
+                    'Cytologie',
+                    'Psychologie',
+                    'Soins dans la communauté ',
+                    ' Techniques de communication',
+                    'Idi',
+                    ' Droit de patient',
+                    '  Microbiologie',
+                    ' Informatique',
+                    ' Biochimie ',
+                    '  Éthique ',
+                    '  Démarche de soins ',
+                    '  Techniques infirmières',
+                    'Ergonomie ',
+                    ' Anglais']
             case '2eme':
                 return [' Mathematiue de base 3', 'Reseaux de communication', ' Mathematiue de base 4', 'Base de donnees', 'System & Scripting', 'Fondements des Resaux', 'Arichitecture des microcontroleaurs', 'Project WEB', 'C++']
             case '3eme':
@@ -37,6 +56,7 @@ function YearCard(props) {
                     </div>
                 </div>
             </main>
+
         </div>
     )
 }
