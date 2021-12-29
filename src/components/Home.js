@@ -11,8 +11,8 @@ function Main(props) {
 
             <header className={classes.header}>
 
-                <h1>"ES-REPO"</h1>
-                <p>ES-REPO est une plateforme créée par des étudiants d'esprit qui vise à collecter tous les cours/TDs de manière simple et facile.</p>
+                <h1>"MY SCHOOL"</h1>
+                <p>this is a studyin site help students get better easily.</p>
                 <Link to='/apropos' className={classes.btn1}>a propos</Link>
 
             </header>
