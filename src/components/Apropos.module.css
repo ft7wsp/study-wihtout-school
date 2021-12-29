@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 12rem;
+    box-shadow: 4px 7px 5px rgb(39, 39, 39);
+    border-radius: 25px;
+}
+
+.text{
+    flex-basis: 45%;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+/* .img{
+    flex-basis: 45%;
+} */
+.title{
+    font-size: 4rem;
+}
+.p{
+    font-size: 2rem;
+}

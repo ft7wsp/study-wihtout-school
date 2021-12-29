@@ -1,0 +1,17 @@
+
+.quote{
+  position:relative;
+  height: 140px;
+  margin-top:80px ;
+  border-top: 2px solid rgb(211, 209, 209);
+  background-color: rgb(245 245 245);
+
+}
+
+blockquote{
+  font-size: 2rem;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
