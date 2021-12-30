@@ -15,6 +15,7 @@ const NavBar = (props) => {
                 <li><Link to='/subjects/3eme' className={classes.link}>3eme</Link></li>
                 <li><Link to='/apropos' className={classes.link}>a propos</Link></li>
                 <li ><Link to='/feedback' className={classes.feedBack}>feedBack</Link></li>
+                <li>...</li>
 
             </ul>
         </nav>

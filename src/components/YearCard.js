@@ -1,15 +1,14 @@
 import { useParams } from 'react-router-dom'
-
+import test from './Quran.pdf'
 import classes from './YearCard.module.css'
 
 
 function YearCard(props) {
 
     const { id } = useParams();
-    console.log(id);
+
 
     const subjectsTitles = (id) => {
-        console.log(id);
         switch (id) {
             case '1er':
                 return ['Anatomie',
@@ -51,7 +50,7 @@ function YearCard(props) {
                 <div className={classes.title}>
                     <div className={classes.subjects}>
                         {subjectsTitles(id).map(sub =>
-                            <div className={classes.subject} key={sub + Math.random()}>{sub}</div>
+                            <a href={test} target='_blank'>  <div className={classes.subject} key={sub + Math.random()}>{sub}</div> </a>
                         )}
                     </div>
                 </div>
